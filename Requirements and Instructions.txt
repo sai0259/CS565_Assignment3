@@ -1,0 +1,30 @@
+Requirements and Instructions:
+1. Python version - 2.7
+
+2. Hand Evluator Library - deuces
+	$ pip install deuces
+	
+3. Student function:
+	i) Student python filename and student classname must be the same. Naming convention <studentfullname>.
+	Example: firstnamelastname.py and class firstnamelastname:
+	
+	Student class must contain three attributes student_Name, student_Hand, and student_function as shown in the example files Student1.py or Student2.py or Student3.py 
+	(EXACTLY THE SAME WORDS. Only the contents of student_function will be different according to your logic)
+  
+  Follow the example student file for the attributes, input and output:
+	ii) Input Format- Two character String Array of length 5. Card is represented as combination of numbers and alphabets.
+	First character denotes card number and second charater denotes suits.
+	
+	Possible card numbers - [ '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A' ] where T,J,Q,K and A denotes number 10, Jack, Queen, King and Ace respectively. 
+    	Possible suits - [ 'c', 'd', 'h', 's' ] where c,d,h and s denotes Club, Diamond, Heart and Spade respectively
+	
+	Example Hand - ['Ah','Kc','Qs','Tc','5d'] where 'Ah' denotes Ace of Heart and so on.
+	
+	iii) Output Format - Boolean Array of length 5, to represent cards to exchange. For Example - [True, True, True, True, True]
+
+4. Your python file must be in the same folder as the main programs files.
+
+5. Testing your function:
+	The program asks for 2 to 5 number of players and then name of the players. 
+	You can create your own testing file or you can use the example file (Student1, Student2 or Student3).
+	
