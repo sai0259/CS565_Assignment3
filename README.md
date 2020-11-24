@@ -17,4 +17,6 @@ Student1, 2, 3.py: Dummy files for artificial players with fixed card exchange (
 JunehyeongPark.py: Artificial player code edited by Junehyeong Park with strategy of calculating expectation (average of rank values) of 1,000 random samples for each exchange rule and choosing the rule that has minimum expectation
 
 
-* On the main program code, there were errors when using some exchange rules, and a minor bug for printing user names when playing with 4 or 5 players. I didn't fix the main code, so that some answers from my player code can cause error due to selecting some exchange rule that can occur error from the main code.
+* Footnotes
+
+On the main program code, there were errors when using some exchange rules, and a minor bug for printing user names when playing with 4 or 5 players. I didn't fix the main code, so that some answers from my player code can cause error due to selecting some exchange rule that can occur error from the main code.
